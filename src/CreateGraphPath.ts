@@ -194,7 +194,7 @@ function createGraphPathBase({
         })
 
       // TODO: Check line removal
-      if (!isExactPointInsidePixelRatio) continue
+      // if (!isExactPointInsidePixelRatio) continue
     }
 
     const value = graphData[index]!.value
