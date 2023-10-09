@@ -193,6 +193,7 @@ function createGraphPathBase({
           return pixel + additionalPixel === exactPointX
         })
 
+        // TODO: Check line removal
       if (!isExactPointInsidePixelRatio) continue
     }
 
